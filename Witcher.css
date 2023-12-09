@@ -1,0 +1,60 @@
+body {
+		background-image: url("geralt.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	  max-width: 100%;
+		height: auto;
+}
+	.content-all {
+	font-size: 110%;
+	margin: 5px;
+	text-shadow: 1px 1px 2px white;
+}
+div.content-left {
+	width:45%;
+	text-align:justify;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+div.content-right {
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+
+}
+
+#Witcher_frame {
+	margin: 10px;
+	border: solid;
+	border-color: rgb(137,98,117);
+	border-width: 5px;
+	width: 90%;
+}
+
+#content1 {
+	right: 0px;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+.img{
+	float:left;
+	height: 50%;
+	width: 50%
+}
+.img img{
+	border:5px solid black;
+}
+
+.content-left, #Witcher_wiki, #content1 {
+	padding: 0px 10px 10px 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+}

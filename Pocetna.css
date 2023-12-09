@@ -1,0 +1,57 @@
+body {
+    background-image: url("monsters.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    font-size: 120%;
+    color: silver;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+}
+
+.navbar a {
+    color: rgb(170, 170, 170);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex: 1;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+
+
+.logo {
+    background-image: url('cdpr.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    transition: ease-in-out 0.3s;
+}
+
+.logo:hover {
+    margin-left: 100px;
+    margin-top: 60px;
+    transform: scale(2.0);
+    tranform: translate(20px 100px);
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+    .logo {
+        width: 100%;
+        transition: 0.3s ease;
+    }
+
+    .logo:hover {
+        transform: scale(2.5);
+    }
+}

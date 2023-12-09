@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Upitnik</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon/favicon.ico">
+        <meta name="description"
+        content="Istražite svet Witcher knjiga i igara. Pogledajte sve 8 Witcher knjiga i upoznajte tvorce legendarnih Witcher igara.">
+    <meta name="keywords"
+        content="Witcher, geralt of rivia, geralt, the witcher1, the witcher 2, the witcher 3, the witcher game, cdpr,henry cavill, hearts of stone, blood and wine">
+    <meta name="copyright" content="Nebojša Lukić">
+        <link rel="stylesheet" type="text/css" href="style-nav.css">
+        <link rel="stylesheet" type="text/css" href="Upitnik.css">
+    </head>
+    <body>
+        <div class="navigacija">
+            <a href="Pocetna.html"><div>Početna</div></a>
+            <a href="Witcher.html"><div>Witcher</div></a>
+            <a href="Upitnik.html"><div>Upitnik</div></a>
+        </div>
+        <div class="content">
+            <h1>Upitnik</h1>
+            <form>
+                <p>
+                    <fieldset>
+                        <legend>O korisniku</legend>
+                        <input type="text" name="ime" id="ime" placeholder="Ime"
+                            required>
+                        <input type="text" name="prezime" id="prezime"
+                            placeholder="Prezime" required>
+                        <input type="text" name="email" id="email"
+                            placeholder="Email" required
+                            pattern="(?=.*[@]).{11,}">
+                        <br>
+                        Pol: <br>
+                        <input type="radio" name="pol" value="m"> Muško<br>
+                        <input type="radio" name="pol" value="z"> Žensko<br>
+                        Rođendan:
+                        <input type="date" id="godine" name="godine">
+                    </fieldset>
+                </p>
+                <p>
+                    <fieldset>
+                        <legend>O igrama</legend>
+                        Označi igru koja ti se svidela:<br>
+                        <input type="checkbox" id="igra1"> Witcher 1<br>
+                        <input type="checkbox" id="igra2"> Witcher 2<br>
+                        <input type="checkbox" id="igra3"> Witcher 3<br>
+                        Označi knjigu koja ti se svidela:<br>
+                        <input type="checkbox" id="knjiga1">Poslednja želja<br>
+                        <input type="checkbox" id="knjiga2">Mač sudbine<br>
+                        <input type="checkbox" id="knjiga3">Krv vilenjaka<br>
+                        <input type="checkbox" id="knjiga4">Vreme prezira<br>
+                        <input type="checkbox" id="knjiga5">Vatreno krštenje<br>
+                        <input type="checkbox" id="knjiga6">Lastavičja kula<br>
+                        <input type="checkbox" id="knjiga7">Gospodarica jezera<br>
+                        <input type="checkbox" id="knjiga8">Sezona oluja<br>
+                        <p>Dodaj mišljenje za neku od igara ili knjiga:</p>
+                        <br>
+
+                        <textarea id="komentar" maxlength="300"></textarea>
+                    </fieldset><br>
+                    <input type="submit" value="Posalji">
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
