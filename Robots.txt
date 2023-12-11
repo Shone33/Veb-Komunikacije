@@ -1,2 +1,4 @@
 user-agent: *
 disallow: monsters.jpg
+
+sitemap: https://github.com/Shone33/Veb-Komunikacije/blob/024c3a7734fea7e375085c557e9aa3176b664a0b/sitemap.xml
